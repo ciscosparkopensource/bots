@@ -10,26 +10,14 @@ This project is designed to address that need, this repository contains free and
 - [x] Easy to Deploy in your preffered environment with a Dockerfile and add to Heroku button included in every repository
 - [x] New functionality based on community contributions
 
-# Available Bots by Application
-
-- ## JIRA
-  - [JIRA by Cisco and Promptworks](https://ciscosparkopensource.github.io/ciscospark-jira/)
-- ## Service Now
-  - [ServiceNow by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-servicenow)
-- ## Salesforce
-  - [Salesforce by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-salesforce)
-- ## Doorman
-  - [Doorman by Cisco and Promptworks](https://github.com/promptworks/ciscospark-doorman)
-- ## Polling
-- ## OnBoarding
-
-
 ### Best Practice
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We recommend following the considerations.
 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Use a UUID as the Bot address for anonymity 
+- [Restrict the Bot to a specific room](https://developer.ciscospark.com/webhooks-explained.html)
+- Make the Bot only respond to specific email domain or Cisco Spark organisation, you can see an [example](https://github.com/howdyai/botkit/blob/master/docs/readme-ciscospark.md#controller-options) of this here using the Botkit framework
+- Use a long, randomly generated Secret to encrypt the Webhook payload (some frameworks will handle this for you)
 
 ### Contributing
 
@@ -38,3 +26,21 @@ How to contribute
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+# Available Bots by Application
+
+- ## JIRA
+  - [JIRA by Cisco and Promptworks](https://ciscosparkopensource.github.io/ciscospark-jira/)
+  
+- ## Service Now
+  - [ServiceNow by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-servicenow)
+  
+- ## Salesforce
+  - [Salesforce by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-salesforce)
+  
+- ## Doorman
+  - [Doorman by Cisco and Promptworks](https://github.com/promptworks/ciscospark-doorman)
+  
+- ## Polling
+
+- ## OnBoarding
