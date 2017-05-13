@@ -1,36 +1,39 @@
-## Welcome to GitHub Pages
+# Open Source Bots for Cisco Spark 🤖
 
-You can use the [editor on GitHub](https://github.com/ciscosparkopensource/bots/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This reposistory represents a listing of Open Source Bots that have been contributed by the [Cisco Spark for Developers](https://developer.ciscospark.com) community.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We understand that there is no one size fits all solution when it comes to Bots and Integrations. Some customers will choose extend the functionality of Spark using the [Spark Depot](https://depot.ciscospark.com) directly, while others will use an Application Integration service such as Built.io or Kore.ai. While others will opt to build and host their own Bots.
 
-### Markdown
+This project is designed to address that need, this repository contains free and open source Bot projects for various enterprise applications.
+
+- [x] Free, Open Source and completely customisable
+- [x] Easy to Deploy in your preffered environment with a Dockerfile and add to Heroku button included in every repository
+- [x] New functionality based on community contributions
+
+# Available Bots by Application
+
+- JIRA
+  - [JIRA by Cisco and Promptworks](https://ciscosparkopensource.github.io/ciscospark-jira/)
+- Service Now
+  - [ServiceNow by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-servicenow)
+- Salesforce
+  - [Salesforce by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-salesforce)
+- Doorman
+  - [Doorman by Cisco and Promptworks](https://github.com/promptworks/ciscospark-doorman)
+- Polling
+- OnBoarding
+
+
+### Best Practice
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Contributing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ciscosparkopensource/bots/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+How to contribute
 
 ### Support or Contact
 
