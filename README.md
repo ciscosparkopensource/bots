@@ -12,16 +12,16 @@ This project is designed to address that need, this repository contains free and
 
 # Available Bots by Application
 
-- JIRA
+- ## JIRA
   - [JIRA by Cisco and Promptworks](https://ciscosparkopensource.github.io/ciscospark-jira/)
-- Service Now
+- ## Service Now
   - [ServiceNow by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-servicenow)
-- Salesforce
+- ## Salesforce
   - [Salesforce by Cisco and WWT Asynchrony Labs](https://github.com/asynchrony-ringo/spark-botkit-salesforce)
-- Doorman
+- ## Doorman
   - [Doorman by Cisco and Promptworks](https://github.com/promptworks/ciscospark-doorman)
-- Polling
-- OnBoarding
+- ## Polling
+- ## OnBoarding
 
 
 ### Best Practice
